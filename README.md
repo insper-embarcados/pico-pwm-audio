@@ -1,7 +1,8 @@
-# pico-pwm-audio for pico 2
-
 > [!NOTE]
 > Original example updated to work with pico-2
+
+
+# pico-pwm-audio for pico 2
 
 Raspberry Pi Pico PWM Audio Project
 
