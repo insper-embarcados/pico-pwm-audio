@@ -1,7 +1,6 @@
 > [!NOTE]
 > Original example updated to work with pico-2
 
-
 # pico-pwm-audio for pico 2
 
 Raspberry Pi Pico PWM Audio Project
@@ -10,38 +9,9 @@ This code goes with a YouTube video which demonstrates PWM audio out with a simp
 
 [![Raspberry Pi Pico Audio Output](https://img.youtube.com/vi/rwPTpMuvSXg/0.jpg)](https://www.youtube.com/watch?v=rwPTpMuvSXg)
 
-## Building
+# Circuit
 
-### Sync 
-```
-git clone https://github.com/rgrosset/pico-pwm-audio.git
-```
-
-### Make 
-Build project using cmake. This requires Raspberry Pi Pico C/C++ SDK to be installed. 
-```
-mkdir build
-cd build
-cmake ..
-make
-```
-
-Then copy pico-pwm-audio.uf2 to your Raspberry Pi Pico!
-
-## The Circuit
-The circuit is based on the [reference design from the raspberry-pi-foundation](https://datasheets.raspberrypi.org/rp2040/hardware-design-with-rp2040.pdf#page=24).
-We will just need one channel and the connector, as well as the logic buffer, is up to you.
-
-![circuit-diagram](circuit-diagram.png)
-
-You will need:
-- 1.8 kΩ resistor
-- 220 Ω resistor
-- 100 Ω resistor
-- 100 nF capacitor
-- 47 µF capacitor
-- an Audiojack
-
+![](https://insper-embarcados.github.io/site/assets/pwm-out.Cv-BCIRn.png)
 
 ## Using the Audito Converter Notebook. 
 
