@@ -14,7 +14,7 @@
  * for converting audio samples into static arrays. 
  */
 #include "sample.h"
-int wav_position = 0;
+volatile int wav_position = 0;
 
 /*
  * PWM Interrupt Handler which outputs PWM level and advances the 
